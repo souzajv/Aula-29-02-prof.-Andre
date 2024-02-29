@@ -9,4 +9,10 @@ window.onload = function() {
     };
 
     const game = new Phaser.Game(config);
+
+}
+
+function botaoHover(botao, textura1, textura2){
+    botao.on("pointerover", () => botao.setTexture(textura2));
+    botao.on("pointerout", () => botao.setTexture(textura1));
 }

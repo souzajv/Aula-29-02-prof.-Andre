@@ -13,6 +13,9 @@ class Cena01 extends Phaser.Scene {
             this.scene.start('Cena02', { playerName: playerName });
             // Oculta o overlay após iniciar
             document.getElementById('inputOverlay').style.display = 'none';
+
         });
+
+
     }
 }
